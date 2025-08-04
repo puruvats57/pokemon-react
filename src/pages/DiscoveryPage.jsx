@@ -4,7 +4,7 @@ import { savePokemonToCollection } from '../utils/localStorageUtils';
 
 export default function DiscoveryPage() {
   const handleAdd = useCallback((pokemon) => {
-    savePokemonToCollection(pokemon);
+    savePokemonToCollection(pokemon);  //list
   }, []);
 
   return (
